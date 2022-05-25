@@ -1,3 +1,5 @@
+package a2.copy;
+
 import java.awt.Graphics;
 import java.util.BitSet;
 import java.util.Iterator;

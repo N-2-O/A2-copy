@@ -1,3 +1,5 @@
+package a2.copy;
+
 import java.util.Iterator;
 
 public class CellIterator implements Iterator<Cell> {

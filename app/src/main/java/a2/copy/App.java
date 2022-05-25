@@ -1,3 +1,5 @@
+package a2.copy;
+
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.event.*;
