@@ -1,3 +1,5 @@
+package a2.copy;
+
 import java.awt.Graphics;
 import java.awt.event.*;
 import java.io.BufferedReader;
@@ -16,10 +18,10 @@ public class Board {
     int numberOfWords;
 
     public Board(){
-        wordleDatabaseConnection = new SQLiteConnectionManager("words.db");
+        wordleDatabaseConnection = new SQLiteConnectionManager("sqlite/words.db");
         int setupStage = 0;
 
-        wordleDatabaseConnection.createNewDatabase("words.db");
+        wordleDatabaseConnection.createNewDatabase("sqlite/words.db");
         if (wordleDatabaseConnection.checkIfConnectionDefined())
         {
             System.out.println("Wordle created and connected.");
