@@ -12,6 +12,7 @@
 
 # Package Files #
 *.jar
+!gradle/wrapper/gradle-wrapper.jar
 !lib/sqlite-jdbc-3.36.0.3.jar
 *.war
 *.nar
